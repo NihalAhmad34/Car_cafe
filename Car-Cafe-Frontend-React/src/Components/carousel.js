@@ -18,19 +18,19 @@ class Scrolling extends React.Component {
           <div >
             <img
             
-              src={`Images`+ "/brakePad2.jpg"}
+              src={`Images`+ "/car3.jpeg"}
               height="600px"
             />
           </div>
           <div>
             <img
-              src={`Images`+ "/ClutchPlate2.jpeg"}
+              src={`Images`+ "/car.jpg"}
               height="600px"
             />
           </div>
           <div>
             <img
-              src={`Images`+ "/brakepad.jpeg"}
+              src={`Images`+ "/car2.jpg"}
               height="600px"
             />
           </div>

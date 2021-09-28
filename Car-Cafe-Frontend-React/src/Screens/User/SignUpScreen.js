@@ -89,11 +89,14 @@ const SignUpScreen = (props) => {
                                 <h6 className="text-danger text-center">{emailError}</h6>
                             </div>
 
+                           
+
                             <div className="mb-3">
                                 <label className="form-label">Password</label>
                                 <input required onChange={(e)=>{setPassword(e.target.value)}} type="password" className="form-control"  placeholder="********"></input>
                                 <h6 className="text-danger text-center">{passwordError}</h6>
                             </div>
+
 
                             {
                                 userSignIn.response && userSignIn.response.data.role === "ADMIN" &&

@@ -35,7 +35,7 @@ import AboutUsScreen from "./Screens/Home/AboutUsScreen";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Router>
         <div className="container">
           <Navigation />

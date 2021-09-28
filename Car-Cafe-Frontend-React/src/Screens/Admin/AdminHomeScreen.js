@@ -8,7 +8,13 @@ const AdminHomeScreen = (props) => {
       {!userSignIn.response && <Header title="You are not logged in" />}
       {userSignIn.response && (
         <Header title={"Welcome " + userSignIn.response.data.firstName} />
+        
       )}
+      <img
+       src={`Images` + `/car3.jpeg`}
+       height="500px"
+       width="1100px"
+       />
     </div>
   );
 };

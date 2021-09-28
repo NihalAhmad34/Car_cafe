@@ -219,10 +219,10 @@ const CustomerProductsScreen = (props) => {
                             {
                                 !products.length>0 &&
                                 <div >
-                                    <h4 className="text-center">Please Login to proceed</h4>
+                                    {/* <h4 className="text-center">Please Login to proceed</h4> */}
                                     <Scrolling />
-                                    {/* <span className="vertical-aligner"></span>
-                                    <h4 className="text-center">Please Login to proceed</h4> */}
+                                    {/* <span className="vertical-aligner"></span> */}
+                                    <h4 className="text-center">Please Login to proceed</h4>
                                 </div>
                             }  
                        

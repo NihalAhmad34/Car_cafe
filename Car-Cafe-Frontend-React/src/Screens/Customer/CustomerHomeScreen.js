@@ -80,7 +80,7 @@ const getStatusClass = (status) => {
         <div>
         <Header title="You are not logged in"/>
         <img
-       src={`Images` + `/car.jpg`}
+       src={`Images` + `/car3.jpeg`}
        height="500px"
        width="1100px"
        />
@@ -90,7 +90,7 @@ const getStatusClass = (status) => {
       userSignIn.response && 
         <div>
         <Header title={"Welcome " + userSignIn.response.data.firstName} />
-          <div className="row">
+          <div className="row" className>
           {
               categoryList.length>0 && categoryList.map(detail => {
                   return(
